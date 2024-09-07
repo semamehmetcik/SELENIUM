@@ -17,7 +17,7 @@ public class C01_SayfayaGitme {
         // Her class'da WebDriver'i indirdigimiz chromedriver.exe dosyasi ile olusturmaliyiz
         // WebDriver'i olusturmak icin Java'daki System class'indan setProperty() kullanilir
 
-        System.setProperty("Webdriver.chrome.driver","kurulumDosyalari/chromedriver");
+        System.setProperty("Webdriver.chrome.driver","kurulumDosyalari/chromedriver.exe");
         WebDriver driver = new ChromeDriver();
         driver.manage()
                 .window()
@@ -40,3 +40,4 @@ public class C01_SayfayaGitme {
 
     }
 }
+
