@@ -40,4 +40,3 @@ public class C01_SayfayaGitme {
 
     }
 }
-
